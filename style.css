@@ -1,0 +1,57 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 20px;
+  text-align: center;
+  background-color: #f8f9fa;
+}
+
+h1 {
+  font-size: 3rem;
+  color: #d9534f;
+  margin-bottom: 20px;
+}
+
+label {
+  display: block;
+  margin-bottom: 8px;
+  font-size: 1.2rem;
+}
+
+input[type="email"] {
+  font-size: 1rem;
+  padding: 10px;
+  width: 300px;
+  max-width: 90%;
+  margin-bottom: 20px;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+}
+
+#panicBtn {
+  font-size: 1.5rem;
+  padding: 15px 30px;
+  background-color: #d9534f;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+#panicBtn:hover {
+  background-color: #c9302c;
+}
+
+#status {
+  margin-top: 20px;
+  font-size: 1.25rem;
+  color: #333;
+}
+
+#map {
+  width: 100%;
+  height: 600px;
+  margin-top: 30px;
+  border: 2px solid #ccc;
+  border-radius: 10px;
+}
