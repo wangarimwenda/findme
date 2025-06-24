@@ -1,4 +1,4 @@
-emailjs.init("xzpDVPZb_u8OFIHUu");  // Your public key
+emailjs.init("xzpDVPZb_u8OFIHUu");  // Your public key // expires after 200 tries
 
 const panicBtn = document.getElementById("panicBtn");
 const statusDiv = document.getElementById("status");

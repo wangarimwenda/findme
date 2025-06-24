@@ -1,4 +1,4 @@
-# 🚨 Panic Alert Web App
+# 🚨 Maandamano Alert Web App
 
 A lightweight emergency alert web app that captures a user’s live location and sends it via email to a designated contact using **EmailJS**. It also displays the user’s location on an interactive map powered by **Leaflet.js** and **OpenStreetMap**.
 
