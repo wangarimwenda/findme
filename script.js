@@ -75,3 +75,18 @@ document.addEventListener("DOMContentLoaded", () => {
     statusDiv.textContent = "Click the button to send an alert.";
   }
 });
+
+// request location access on load
+document.addEventListener('DOMContentLoaded', () => {
+  if ("geolocation" in navigator) {
+    navigator.geolocation.getCurrentPosition(() => {
+        console.log("Location permission granted.");
+      },
+      (error) => {
+        console.warn("Location access denied or unavailable.", error);
+      }
+    );
+  } else {
+    alert("Geolocation is not supported by your browser.");
+  }
+});
